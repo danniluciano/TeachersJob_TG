@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "570135314340",
+    "firebase_url": "https://teacher-s-job.firebaseio.com",
+    "project_id": "teacher-s-job",
+    "storage_bucket": "teacher-s-job.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570135314340:android:79f72b2095e3d352",
+        "android_client_info": {
+          "package_name": "br.com.danielaluciano.teachersjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570135314340-8sn3a829e7d841bbecodobailadhvtr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.danielaluciano.teachersjob",
+            "certificate_hash": "ae9ae17974b3b1065b8eb99275a3bd4f60f03a98"
+          }
+        },
+        {
+          "client_id": "570135314340-1u76rcshg9sc6o9ud7vp53l0fo5iaoks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.danielaluciano.teachersjob",
+            "certificate_hash": "feae7252bf372b23718c382557909db9afaf9210"
+          }
+        },
+        {
+          "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVIC4P5jfjDPYrtvYOfOLOP4y1tdngkhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570135314340:android:eb671f77b208bcc2",
+        "android_client_info": {
+          "package_name": "br.com.danielaluciano.teachersjob2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570135314340-06uo8plcb6cetq8k01hcd89e59bicjcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.danielaluciano.teachersjob2",
+            "certificate_hash": "ae9ae17974b3b1065b8eb99275a3bd4f60f03a98"
+          }
+        },
+        {
+          "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVIC4P5jfjDPYrtvYOfOLOP4y1tdngkhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570135314340:android:c69a68e9fb15dfb1",
+        "android_client_info": {
+          "package_name": "com.example.daniela.teachersjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570135314340-5jchtl7pgv022ajm6854lbaoc6cccvc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daniela.teachersjob",
+            "certificate_hash": "be7539c511d1c4e21eb021670607ca1e64936e97"
+          }
+        },
+        {
+          "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVIC4P5jfjDPYrtvYOfOLOP4y1tdngkhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570135314340-jfif78279cetmaa5osj83t8f1dqvvcrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

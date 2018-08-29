@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/termosTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_confirmar"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/color_primary"
+        android:textSize="@dimen/titulo_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Olá,"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Seja bem-vindo(a) ao Teacher's Job!"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="O Teacher's Job trata-se de uma aplicação para auxiliar professores e instituições para o preenchimento de vagas no Ensino Fundamental II e Médio. Procuramos coletar o máximo de informações relacionado ao que os usuários procuram, para disponibilizar uma maior amplitude de vagas."
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="A aplicação também conta com o Discovery, uma ferramente que oferece ao usuário a possibilidade de inserir uma palavra e descobrir se a mesma possui um maior resultado positivo,  negativo ou neutro."
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Esperamos que aproveite o máximo e faça bom uso da aplicação. Desejamos uma boa experiência!"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Atenciosamente,"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="20dp"
+        android:text="Equipe Teacher's Job"
+        android:textColor="#0d0d0d" />
+
+</LinearLayout>

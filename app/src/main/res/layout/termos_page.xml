@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/termosTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_confirmar"
+        android:gravity="center"
+        android:text="@string/termos"
+        android:textColor="@color/color_primary"
+        android:textSize="@dimen/titulo_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Antes de realizar o cadastro e uso da aplicação, é de suma importância a leitura e concordância dos termos abaixo."
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Produzimos essa aplicação com o intuito de auxiliar os docentes na busca de emprego, logo para cumprirmos o objetivo, solicitamos aos nossos usuários que em nenhum momento utilize palavras ofensivas, palavrões, haja de forma preconceituosa ou outros meios pejorativas"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Não nos responsabilizamos por informações incorretas ou falsas, solicitamos a compreensão e bom senso de todos os usuários. O aplicativo serve para a divulgação/amostra das vagas em aberto."
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Desejamos um bom uso a todos os usuários! "
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Agradecemos a compreensão desde já."
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Atenciosamente,"
+        android:textColor="#0d0d0d" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="20dp"
+        android:text="Equipe Teacher's Job"
+        android:textColor="#0d0d0d" />
+
+    <Button
+        android:id="@+id/euConcordoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="@dimen/margin_tam"
+        android:layout_marginRight="@dimen/magin_page_login"
+        android:layout_marginTop="50dp"
+        android:background="@color/color_primary"
+        android:paddingLeft="@dimen/button_confirmar_padding"
+        android:paddingRight="@dimen/button_confirmar_padding"
+        android:text="@string/eu_concordo"
+        android:textColor="@color/color_text_buttons"
+        android:textStyle="bold" />
+
+</LinearLayout>

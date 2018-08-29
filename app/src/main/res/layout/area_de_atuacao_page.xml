@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_tam"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/disciplinasDeInteresseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_tam"
+        android:text="@string/discplinas_titulo"
+        android:textColor="#3f51b5"
+        android:textSize="@dimen/titulo_size" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/margin_tam"
+        app:columnCount="2">
+
+        <CheckBox
+            android:id="@+id/portuguesCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/portugues"
+            android:textSize="@dimen/size_text_check_box" />
+
+        <CheckBox
+            android:id="@+id/espanholCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/espanhol"
+            android:textSize="@dimen/size_text_check_box" />
+
+        <CheckBox
+            android:id="@+id/cienciasCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/ciencias"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/historiaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/historia"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/geografiaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/geografia"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/inglesCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/ingles"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/matematicaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/matematica"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/filosofiaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/filosofia"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/sociologiaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/sociologia"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/artesCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/artes"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/fisicaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/fisica"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/biologiaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/biologia"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/educacaoFisicaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/educacao_fisica"
+            android:textSize="@dimen/size_text_check_box"/>
+
+        <CheckBox
+            android:id="@+id/quimicaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/left_padding"
+            android:paddingRight="@dimen/right_padding"
+            android:text="@string/quimica"
+            android:textSize="@dimen/size_text_check_box"/>
+
+    </android.support.v7.widget.GridLayout>
+
+
+    <TextView
+        android:id="@+id/areaDeAtuacaoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_tam"
+        android:text="@string/atuacao_titulo"
+        android:textColor="@color/color_primary"
+        android:textSize="@dimen/titulo_size" />
+
+    <CheckBox
+        android:id="@+id/ensinoMedioCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_padding"
+        android:layout_marginTop="@dimen/distancia_padrao"
+        android:paddingLeft="@dimen/left_padding"
+        android:paddingRight="@dimen/right_padding"
+        android:text="@string/ensino_medio"
+        android:textSize="@dimen/size_text_check_box" />
+
+    <CheckBox
+        android:id="@+id/ensinoFundamentalCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_padding"
+        android:paddingLeft="@dimen/left_padding"
+        android:paddingRight="@dimen/right_padding"
+        android:text="@string/ensino_fundamental"
+        android:textSize="@dimen/size_text_check_box"/>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="90dp"
+        android:paddingRight="@dimen/padding_buttons_right"
+        app:columnCount="2">
+
+        <Button
+            android:id="@+id/confirmarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color_primary"
+            android:paddingLeft="@dimen/button_confirmar_padding"
+            android:paddingRight="@dimen/button_confirmar_padding"
+            android:text="@string/confirmar"
+            android:textColor="@color/color_text_buttons"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/pularButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_padding"
+            android:background="@color/color_primary"
+            android:text="@string/pular"
+            android:textColor="@color/color_text_buttons"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
